@@ -4,3 +4,17 @@
 #services{
     background-image: url(./assets/backgrounds/s_image.jpg);
 }
+#form{
+    background-image: url(./assets/backgrounds/c_image.jpg);
+}
+#images{
+    display: flex;
+    
+}
+#section1{
+    display: flex;
+    
+}
+#section2{
+    display: flex;
+}
