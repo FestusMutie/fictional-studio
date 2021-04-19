@@ -13,8 +13,10 @@
 }
 #section1{
     display: flex;
-    
 }
 #section2{
     display: flex;
+}
+.design,.development,.product{
+    display: none;
 }
