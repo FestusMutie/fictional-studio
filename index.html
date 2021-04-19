@@ -7,14 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
     <title>Delani studio</title>
 </head>
 
 <body>
     <div class="container">
         <!--introduction section-->
-        <div id="welcome">
+         <div id="welcome">
+            <a href="./assets/logo/logo.png"></a>
             <h1>WELCOME <br>TO DELANI STUDIO<br /></h1>
             <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
         </div>
@@ -39,9 +43,9 @@
         <div class="row">
             <div class="col-md-4">
               <div class="thumbnail">
-                <a href="./assets/services_icons/design_icon.png">
-                  <img src="./assets/services_icons/design_icon.png" alt="design icon">
-                  </a>
+                
+                  <img class="design_image" src="./assets/services_icons/design_icon.png" alt="design icon">
+                  
                   <h3>DESIGN</h3>
 
                 <p class="design">Our design practice offers a full range of services including brand strategy,
@@ -53,9 +57,9 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <a href="./assets/services_icons/dev_icon.png">
-                  <img src="./assets/services_icons/dev_icon.png" alt="development icon">
-                  </a>
+                
+                  <img class="dev_image"src="./assets/services_icons/dev_icon.png" alt="development icon">
+                
                   <h3>DEVELOPMENT</h3>
                   <p class="development">All engineers are fluent in the latest enterprise, mobile and web development
                     technologies. They collaborate with your team to write, and improve code on a daily basis, using
@@ -64,8 +68,8 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <a href="./assets/services_icons/product_icon.png">
-                  <img src="./assets/services_icons/product_icon.png" alt="product icon"></a>
+                
+                  <img class="product_image"src="./assets/services_icons/product_icon.png" alt="product icon"></a>
                   <h3>product management</h3> 
                    <p class="product">Planning and development is iterative. Because we are constantly coding and
                     testing, the products we build are always ready to go live. This iterative process allows for
@@ -86,26 +90,30 @@
                 <a href="./assets/portfolio/work8.jpg"><img src="./assets/portfolio/work8.jpg" alt="pic8"></a>
             </div>
         <!--Form section-->
-        <form class="form" id="form">
-            <h3>CONTACT US</h3>
-            <div class="form-group">
-                <label for=""></label>
-                <input type="text" name="official names" id="official names" class="form-control" placeholder="Name..."
-                    aria-describedby="helpId">
-
-
-                <div class="form-group">
-                    <label for=""></label>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Email..."
-                        aria-describedby="helpId">
-                </div>
-                <div class="form-group">
-                    <label for=""></label>
-                    <input type="text" name="message" id="message" class="form-control"
-                        placeholder="Your message here..." aria-describedby="helpId">
-                </div>
+        <form>
+          <p><input type="text" name="name" id="name" placeholder="Name..."> 
+         <span><input type="text" name="email" id="email" placeholder="Email..."></span></p>
+          <br>
+          
+          <textarea name="textarea" id="textarea" placeholder="Your message here..."></textarea>
+          <br>
+          <button class="btn btn-primary" type="submit" id="button">Send</button>
         </form>
+        <footer>
+            <div class="social">
+                <div class="icons img-fluid" >
+                <img src="./assets/social_icons/twitter.png">
+                <img src="./assets/social_icons/dribble.png">
+                <img src="./assets/social_icons/facebook.png">
+                <img src="./assets/social_icons/g_plus.png">
+                <img src="./assets/social_icons/skype.png">
+                <img src="./assets/social_icons/stumble_upon.png">
+                <img src="./assets/social_icons/pinterest.png">
+                <img src="./assets/social_icons/flickr.png">
+          
+        </footer>
     </div>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
