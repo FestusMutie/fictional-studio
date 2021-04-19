@@ -12,12 +12,15 @@
     
 }
 /*portfolio images styling */
-#section1{
-    display: flex;
+.portfolio{
+margin: 10px 50px;
 }
-#section2{
-    display: flex;
+.portfolio img{
+transition: 1s;
+padding: 15px;
+width: 250px;
 }
+
 .design,.development,.product{
     display: none;
 }
