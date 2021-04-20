@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    //USER INTERFACE SECTION
 //code to show and hide the design image
 $(".design_image").click(function(){
 $(this).hide()
@@ -27,6 +28,7 @@ $(".product_image").show()
 });
 });
 //form validation code
+//BUSINESS LOGIC SECTION
 $("#button").click(function(e){
     e.preventDefault();
     var email =$("#email").val();
