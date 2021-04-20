@@ -6,3 +6,8 @@ This a website for a fictional studio.It showcases the services,portfolio and mo
 * INPUT:enter user first and second name
 * INPUT:type your message in the textarea
 * OUTPUT:get notified when form is submitted successfully
+## Installation/set up requirement
+To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
+
+Step 1 : Clone this repository using git clone  download the project zip files. Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened Step 3 : Open the index.html file to view the webpage on your preferred web browser.
+
