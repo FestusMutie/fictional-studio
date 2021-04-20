@@ -17,10 +17,11 @@
 <body>
     <div class="container">
         <!--introduction section-->
-         <div id="welcome">
-            <a href="./assets/logo/logo.png"></a>
+         <div class="welcome" id="welcome">
+            <img src="./assets/logo/logo.png" alt="logo">
             <h1>WELCOME <br>TO DELANI STUDIO<br /></h1>
             <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
+          <div class="mouse"><img src="./assets/mouse_click.png" alt="mouse"></div>
         </div>
         <!--The about section-->
         <div id="about">
@@ -40,8 +41,10 @@
                 of you need.</p>
         </div>
         <!--what we do section-->
+       
+          <div class="what"><h4>WHAT WE DO</h4></div>
         <div class="row">
-            <div class="col-md-4">
+             <div class="col-md-4">
               <div class="thumbnail">
                 
                   <img class="design_image" src="./assets/services_icons/design_icon.png" alt="design icon">
@@ -90,17 +93,21 @@
                 <a href="./assets/portfolio/work8.jpg"><img src="./assets/portfolio/work8.jpg" alt="pic8"></a>
             </div>
         <!--Form section-->
+        <div class="form-section">
         <form>
             <h4>CONTACT US</h4>
+            <div>
           <p><input type="text" name="name" id="name" placeholder="Name..."> 
          <span><input type="text" name="email" id="email" placeholder="Email..."></span></p>
           <br>
-          
-          <textarea name="textarea" id="textarea" placeholder="Your message here..." rows="5"></textarea>
+        </div>
+          <div>
+          <textarea name="textarea" id="textarea" placeholder="Your message here..." rows="5" cols="65"></textarea></div>
           <br>
           <button class="btn btn-primary" type="submit" id="button">Send</button>
          
         </form>
+    </div>
         <footer>
             <div class="social">
                 <div class="icons img-fluid" >
@@ -112,6 +119,7 @@
                 <img src="./assets/social_icons/stumble_upon.png">
                 <img src="./assets/social_icons/pinterest.png">
                 <img src="./assets/social_icons/flickr.png"></div>
+                <p>DELANI STUDIO <span><br>2019<br><span></span></p>
           </div>
           
         </footer>

@@ -18,23 +18,37 @@
     #welcome p{
         color: white;
         font-size: small;
-        margin-left: 45%;
-        margin-top: 30%;
+        position:absolute;
+        padding-top: 38%;
+        padding-left: 30%;
     }
     #welcome h1{
         color: white;
-        margin-left: 50%;
-        
+        position: absolute;
+        padding-top: 25%;
+        padding-left: 45%;
         
         }
-        
+    .welcome{
+        position: relative;
+    }
+    .mouse{
+        position: absolute;
+        padding-left: 32%;
+        padding-top: 45%;
+    }
+    .welcome img{
+        position: absolute;
+        padding-left:45%;
+        padding-top: 15%;
+    }
         #about p{
             color: black;
             margin-left: 20%;
             font-size:smaller;
         }
         #about h4{
-            margin-left: 40%;
+            margin-left: 43%;
         }
         #about .paragraph {
             margin-left: 10%;
@@ -52,11 +66,16 @@
     background-image: url(./assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 30vh;
+    height: 40vh;
     width: 100%;
+    
+}
+
+.what h4{
+margin-left: 43%;
 }
 #services h4{
-    margin-left: 40%;
+    margin-left: 43%;
     color: white;
 }
 #services p{
@@ -68,8 +87,8 @@
     
 }
 /*portfolio images styling */
-.portfolio{
-margin: 10px 50px;
+.portfolio h4{
+margin-left: 43%;
 }
 .portfolio img{
 transition: 1s;
@@ -80,11 +99,11 @@ width: 250px;
 .design,.development,.product{
     display: none;
 }
-form{
+.form-section{
     background-image: url(./assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -92,9 +111,11 @@ form{
     justify-content: center;
     margin-bottom: 5%;
     padding-top: 40px;
+    
 }
 form h4{
     color: white;
+    margin-left: 43%;
 }
 
 
@@ -107,5 +128,10 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 30vh;
-    margin-left:10%;
+}
+.social span{
+    font-size: xx-small;
+}
+   footer{
+       width: 100%;
    }
