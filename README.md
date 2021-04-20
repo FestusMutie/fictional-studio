@@ -20,3 +20,6 @@ None
 * JAVASCRIPT
 * J-query
 * GIT
+
+## support and contact details
+for feedback or any concerns,reach out to the developer via this email mutiefestus84@gmail.com
