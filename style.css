@@ -1,16 +1,39 @@
 #welcome{
     background-image: url(./assets/backgrounds/h_img.jpg);
-    padding: 35px 20px 35px 20px;
-    
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    padding-bottom: 55%;
+    position:relative;
+    }
+    #welcome p{
+        color: white;
+        font-size: small;
+        margin-left: 45%;
+        margin-top: 30%;
+    }
+    #welcome h1{
+        color: white;
+        margin-left: 50%;
+        margin-top: 20%;
+        }
+        
+        #about p{
+            color: black;
+            justify-content: center;
+            align-content: center;
+        }
+
+/*services section css */
 #services{
     background-image: url(./assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
     background-size:cover;
+    height: 30vh;
+    width: 100%;
 }
-/*form{
-    background-image: url(./assets/backgrounds/c_image.jpg);
-    
-}*/
+
 #images{
     display: flex;
     
@@ -41,4 +64,13 @@ form{
 }
 body{
     font-family: 'Antonio', sans-serif;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    margin-left:10%;
+    padding: 5px;
 }
