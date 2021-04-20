@@ -14,3 +14,9 @@ Step 1 : Clone this repository using git clone  download the project zip files. 
 ## Known bugs
 None
 
+## Technologies used
+* HTML
+* CSS
+* JAVASCRIPT
+* J-query
+* GIT
